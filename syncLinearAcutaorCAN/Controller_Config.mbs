@@ -1,0 +1,10 @@
+top:
+
+leftCommand = getvalue(_VAR, 9)
+rightCommand = getValue(_VAR, 10)
+
+setcommand(_G, 1, leftCommand)
+setcommand(_G, 2, rightCommand)
+
+wait(1)
+goto top
